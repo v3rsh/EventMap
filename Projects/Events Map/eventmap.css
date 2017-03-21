@@ -1,0 +1,165 @@
+.@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+/*!
+ * bootswatch v3.3.7
+ * Homepage: http://bootswatch.com
+ * Copyright 2012-2017 Thomas Park
+ * Licensed under MIT
+ * Based on Bootstrap
+*/
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.hat {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.calendar {
+  width: 100%;
+  border-top: 2px solid;
+}
+.month {
+  display: inline-block;
+  width: 13%;
+  height: 600px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-right: 1px dotted lightgrey;
+}
+.eventmap {
+  width: 100%;
+}
+.worldtour {
+  width: 100%;
+}
+.event {
+  margin-right: 0;
+  display: block;
+  position: absolute;
+  border: 2px solid;
+  border-radius: 5px;
+  z-index: 100;
+  padding: 0 5px;
+}
+.event:hover {
+  z-index: 1000;
+}
+.event-date {
+  font-weight: bold;
+}
+.event-place {
+  font-style: italic;
+  font-size: 12px;
+}
+.red {
+  z-index: 800;
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: transparent;
+}
+.red:hover,
+.red:focus {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: rgba(0, 0, 0, 0);
+}
+.brown {
+  z-index: 700;
+  color: #ffffff;
+  background-color: #A0522D;
+  border-color: transparent;
+}
+.brown:hover,
+.brown:focus {
+  color: #ffffff;
+  background-color: #8B4513;
+  border-color: rgba(0, 0, 0, 0);
+}
+.black {
+  z-index: 900;
+  color: #ffffff;
+  background-color: #202020;
+  border-color: transparent;
+}
+.black:hover,
+.black:focus {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: rgba(0, 0, 0, 0);
+}
+.purple {
+  z-index: 600;
+  color: #ffffff;
+  background-color: #DA70D6;
+  border-color: transparent;
+}
+.purple:hover,
+.purple:focus {
+  color: #ffffff;
+  background-color: #8B008B;
+  border-color: rgba(0, 0, 0, 0);
+}
+.olive {
+  z-index: 400;
+  color: #ffffff;
+  background-color: #6B8E23;
+  border-color: transparent;
+}
+.olive:hover,
+.olive:focus {
+  color: #ffffff;
+  background-color: #808000;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.worldcup {
+  top: 125px;
+  left: 33%;
+}
+.ulan-bator {
+  left: 28%;
+  top: 200px;
+}
+.wtf {
+  left: 91%;
+  top: 250px;
+}
+.utsunomiya {
+  top: 200px;
+  left: 52%;
+}
+.hague {
+  top: 300px;
+  left: 31%;
+}
+.prague {
+  top: 400px;
+  left: 55%;
+}
+.moscow-open {
+  max-width: 180px;
+  top: 400px;
+  left: 40%;
+}
+.tallin-open {
+  left:52%;
+  top: 300px;
+}
+.wtf:hover
