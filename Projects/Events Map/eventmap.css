@@ -53,7 +53,7 @@ body {
   margin-right: 0;
   display: block;
   position: absolute;
-  border: 2px solid;
+  border-left: 2px solid #2b3e50;
   border-radius: 5px;
   z-index: 100;
   padding: 0 5px;
@@ -68,6 +68,14 @@ body {
   font-style: italic;
   font-size: 12px;
 }
+.hidden-info {
+  display: none;
+
+}
+.event:hover .hidden-info{
+  display: block;
+}
+
 .red {
   z-index: 800;
   color: #ffffff;
@@ -97,13 +105,15 @@ body {
   color: #ffffff;
   background-color: #202020;
   border-color: transparent;
+
 }
 .black:hover,
 .black:focus {
   color: #ffffff;
   background-color: #000000;
-  border-color: rgba(0, 0, 0, 0);
+  border-color: transparent;
 }
+
 .purple {
   z-index: 600;
   color: #ffffff;
@@ -114,6 +124,18 @@ body {
 .purple:focus {
   color: #ffffff;
   background-color: #8B008B;
+  border-color: rgba(0, 0, 0, 0);
+}
+.blue {
+  z-index: 500;
+  color: #ffffff;
+  background-color: #4682B4;
+  border-color: transparent;
+}
+.blue:hover,
+.blue:focus {
+  color: #ffffff;
+  background-color: #191970;
   border-color: rgba(0, 0, 0, 0);
 }
 .olive {
@@ -131,35 +153,76 @@ body {
 
 .worldcup {
   top: 125px;
-  left: 33%;
+  left: 34%;
 }
 .ulan-bator {
   left: 28%;
-  top: 200px;
+  top: 190px;
 }
 .wtf {
+  border-radius: 0;
+  border: 3px solid gold;
   left: 91%;
-  top: 250px;
+  top: 190px;
 }
 .utsunomiya {
-  top: 200px;
+  top: 190px;
   left: 52%;
 }
-.hague {
-  top: 300px;
-  left: 31%;
+.lausanne {
+  top: 270px;
+  left: 62%;
 }
 .prague {
-  top: 400px;
+  top: 460px;
   left: 55%;
 }
-.moscow-open {
+.odense {
+  top: 330px;
+  left: 30%;
+}
+.lugano {
+  top: 330px;
+  left: 55%;
+}
+.bucharest {
+  top: 390px;
+  left: 59%;
+}
+.hague {
+  top: 460px;
+  left: 30%;
+}
+.b33 {
   max-width: 180px;
-  top: 400px;
+  top: 500px;
   left: 40%;
 }
-.tallin-open {
-  left:52%;
-  top: 300px;
+.moscow-open{
+  left: 51.5%;
+  top: 525px;
 }
-.wtf:hover
+.tallinn-open {
+  left:52%;
+  top: 270px;
+}
+.valga {
+  left: 15%;
+  top: 280px;
+}
+.tartu {
+  left: 24%;
+  top: 280px;
+}
+.rakvere {
+  top: 280px;
+  left: 30%;
+}
+.otepaa {
+  top: 260px;
+  left: 43%;
+}
+.parnu {
+  top: 305px;
+  left: 46%;
+}
